@@ -1,11 +1,13 @@
 package com.devsuperior.dsmovie.entities;
 
+
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "td_score")
+@Table(name = "tb_score")
+
 public class Score {
 	 
 	@EmbeddedId

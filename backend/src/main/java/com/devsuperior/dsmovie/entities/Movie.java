@@ -1,5 +1,6 @@
 package com.devsuperior.dsmovie.entities;
 
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -7,17 +8,17 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "td_movie")
+@Table(name = "tb_movie")
 public class Movie {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY )
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String title;
 	private Double score;
 	private Integer count;
 	private String image;
-	
-	public Movie( ) {
+
+	public Movie() {
 	}
 
 	public Movie(Long id, String title, Double score, Integer count, String image) {
@@ -67,10 +68,5 @@ public class Movie {
 	public void setImage(String image) {
 		this.image = image;
 	}
-	
-	
-	
-
-	
 
 }
