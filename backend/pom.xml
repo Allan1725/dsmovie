@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.devsuperior</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>dsmovie</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
-	<description>projeto criado na semana spring</description>
+	<name>dsmovie</name>
+	<description>projeto criado na semana react</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
